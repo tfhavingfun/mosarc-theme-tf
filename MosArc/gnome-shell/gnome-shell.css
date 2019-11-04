@@ -1324,18 +1324,34 @@ StScrollBar {
 
 .show-apps .overview-icon {
   /*background-color: rgba(0, 0, 0, 0.5);*/
+  color: transparent;
   border-radius: 2px;
   margin: 1px; }
 
-.show-apps:hover .overview-icon {
+/*.show-apps:hover .overview-icon {
   background-color: rgba(0, 0, 0, 0.7);
-  color: #5294e2; }
+  color: #5294e2; }*/
+
+.show-apps:hover .overview-icon {
+  color: transparent;
+  background-color: transparent; }
+
+.show-apps-icon {
+  color: transparent;
+  background-image: url("common-assets/show_apps.svg");
+  background-size: contain; }
+
+.show-apps:hover .show-apps-icon,
+.show-apps:active .show-apps-icon,
+.show-apps:checked .show-apps-icon {
+  color: transparent;
+  background-image: url("common-assets/show_apps_var.svg"); }
 
 .show-apps:active .overview-icon,
 .show-apps:active .show-apps-icon,
 .show-apps:checked .overview-icon,
 .show-apps:checked .show-apps-icon {
-  color: #ffffff;
+  color: transparent;
   background-color: #5294e2;
   box-shadow: none;
   transition-duration: 0ms; }

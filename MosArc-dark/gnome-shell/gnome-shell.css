@@ -647,7 +647,8 @@ StScrollBar {
   min-height: 24px;
   background-gradient-direction: none;
   background-color: rgba(19, 29, 39, 0.95);
-  box-shadow: none; }
+  transition-duration: 250ms;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2), 0 0 4px rgba(0, 0, 0, 0.3); }
   
   
   #panel.dynamic-top-bar-white-btn {

@@ -1157,6 +1157,14 @@ window.csd > .titlebar:not(headerbar):backdrop {
     border-color: rgba(82, 148, 226, 0.65);
     background-color: rgba(82, 148, 226, 0.65); }
 
+/* headerbar button override */
+headerbar button {
+  background-color: rgba(251, 251, 252, 0.3);
+  border-color: rgba(58, 66, 84, 0.1); }
+  headerbar button:hover {
+    color: rgba(58, 66, 84, 1.0);
+    border-color: rgba(58, 66, 84, 0.2); }
+
 .selection-mode.primary-toolbar button, headerbar.selection-mode button, .selection-mode.primary-toolbar button.flat, headerbar.selection-mode button.flat, .selection-mode.primary-toolbar button.sidebar-button, headerbar.selection-mode button.sidebar-button {
   border-color: transparent;
   background-color: transparent;
